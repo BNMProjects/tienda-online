@@ -24,7 +24,7 @@ export const HeaderMenu = ({ children }) => {
 
 export const HeaderProfile = ({ children }) => {
   return (
-    <a className="header-menu-profile" href="#">
+    <a className="header-menu-profile" href="*">
       {children}
     </a>
   );
