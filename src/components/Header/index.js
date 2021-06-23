@@ -2,17 +2,18 @@ import React from "react";
 
 import * as S from "./styles";
 import logo from "../../example-logo.png";
-import { ReactComponent as Cart } from "../../cart.svg";
 
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="example-logo" />
+      <S.HeaderLogo>
+        <S.ImgLogo logo={logo} alt={"example-logo"} />
+      </S.HeaderLogo>
       <S.SearchBar placeholder="Ingresa el nombre de tu producto"></S.SearchBar>
-      <div>
-        <a href="*">Profile</a>
-        <Cart />
-      </div>
+      <S.HeaderMenu>
+        <S.HeaderProfile>Profile</S.HeaderProfile>
+        <S.CartLogo />
+      </S.HeaderMenu>
     </header>
   );
 };

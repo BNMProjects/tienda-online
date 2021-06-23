@@ -29,6 +29,12 @@ header {
   color: var(--timberwolf);
 }
 
+.header-logo {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+}
+
 .search-bar {
   margin-top: auto;
   margin-bottom: auto;
@@ -36,18 +42,18 @@ header {
   height: 50%;
 }
 
-header div {
+.header-menu {
   width: 10%;
   display: flex;
   justify-content: space-between;
 }
 
-header a {
+.header-menu-profile {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-header svg {
+.header-menu-cart {
   margin-top: 0.8rem;
   stroke: var(--timberwolf);
 }
