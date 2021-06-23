@@ -1,5 +1,9 @@
 import React from "react";
 
-export const Header = ({ children }) => {
-  return <header>{children}</header>;
+export const SearchBar = ({ children, placeholder }) => {
+  return (
+    <input className="search-bar" placeholder={placeholder}>
+      {children}
+    </input>
+  );
 };
