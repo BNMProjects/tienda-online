@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+#root{
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 5vh;
+}
+
 /*Header*/
 
 header {
