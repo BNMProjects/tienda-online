@@ -1,12 +1,19 @@
 import React from "react";
+import Banner from "../../components/Banner";
+import PublishingCardList  from "../../components/PublishingCardList";
+import { publishings as getPublishings } from "../../helpers/provisoryApi";
 
 import Layout from "../../components/Layout/Layout";
+
+const publishings = getPublishings();
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <h1>Esta es la pagina principal</h1>
+        <Banner />
+        <PublishingCardList 
+        publishings={publishings}/>
       </Layout>
     </>
   );
