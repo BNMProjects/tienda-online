@@ -8,8 +8,8 @@ export const Banner = ({children}) => {
   )
 }
 
-export const ImgBanner = ({ logo, alt }) => {
-  return <img src={logo} alt={alt} />;
+export const ImgBanner = ({ src, alt }) => {
+  return <img src={src} alt={alt} />;
 };
 
 
