@@ -25,7 +25,7 @@ export const PublishingCardInfo = ({children}) => {
 }
 
 export const PublishingCardPrice = ({price}) => {
-  return <span className="publishing-card-price">{price}</span>
+  return <span className="publishing-card-price">${price}</span>
 }
 
 export const PublishingCardTitle = ({title}) => {
