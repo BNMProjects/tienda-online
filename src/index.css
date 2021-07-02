@@ -128,3 +128,63 @@ footer p {
   text-align: center;
 }
 
+/* Publishing list */
+
+.publishing-card-list{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.5rem;
+  padding: 5px 5px;
+}
+
+/* Publishing card */
+
+.publishing-card{
+  padding: 0px;
+  margin: 0px;
+  background-color: #f2f2f2;
+  border: solid 1px #eaedf0;
+  border-radius: 3px;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.publishing-card:hover {
+  box-shadow: 1px 1px 1px 0px #838ea9;
+  transform: translate(-1px, -1px);
+}
+
+.publishing-card-img-container{
+  padding: 0.5em 0px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.publishing-card-img{
+  width: 100%;
+  height: auto;
+}
+
+.publishing-card-info{
+  width: 56%;
+  margin: 0px auto;
+}
+
+.publishing-card-price {
+  display: block;
+  margin: 0px auto;
+}
+
+.publishing-card-title{
+  display: block;
+  margin: 0px auto;
+  font-size: 0.8em;
+  color: #000000b3;
+}
+
+.publishing-card-name{
+  display: block;
+  margin: 0px auto;
+  font-size: 0.8em;
+  color: #000000b3;
+}
