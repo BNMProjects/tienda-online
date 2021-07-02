@@ -14,3 +14,5 @@ const PublishingCard = ({publication: {alt, img, price, title, name}}) => {
     </S.PublishingCard>
   )
 }
+
+export default PublishingCard;
