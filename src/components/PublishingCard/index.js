@@ -1,14 +1,15 @@
 import React from 'react';
 import * as S from './styles';
 
-export const PublishingCard = ({publication: p}) => {
+const PublishingCard = ({publication: {alt, img, price, title, name}}) => {
+
   return (
     <S.PublishingCard >
-      <S.PublishingCardImg alt={p.alt} src={p.img}/>
+      <S.PublishingCardImg alt={alt} src={img}/>
       <S.PublishingCardInfo>
-        <S.PublishingCardPrice price={p.price}/>
-        <S.PublishingCardTitle title={p.title}/>
-        <S.PublishingCardName name={p.name} />
+        <S.PublishingCardPrice price={price}/>
+        <S.PublishingCardTitle title={title}/>
+        <S.PublishingCardName name={name} />
       </S.PublishingCardInfo>
     </S.PublishingCard>
   )
