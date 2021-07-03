@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const List = ({ list, renderItem, Wrapper = "" }) => {
   const itemsList = list.map((item, index) => renderItem(item, index));
 
@@ -6,6 +8,11 @@ const List = ({ list, renderItem, Wrapper = "" }) => {
   }
 
   return itemsList;
+};
+
+List.propTypes = {
+  list: PropTypes.any.isRequired,
+  renderItem: PropTypes.any.isRequired,
 };
 
 export default List;
