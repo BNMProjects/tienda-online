@@ -35,31 +35,31 @@ header {
   color: var(--timberwolf);
 }
 
-.header-logo {
+#header-logo {
   width: 5%;
   display: flex;
   justify-content: center;
 }
 
-.search-bar {
+#search-bar {
   margin-top: auto;
   margin-bottom: auto;
   width: 58vw;
   height: 50%;
 }
 
-.header-menu {
+#header-menu {
   width: 10%;
   display: flex;
   justify-content: space-between;
 }
 
-.header-menu-profile {
+#header-menu-profile {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.header-menu-cart {
+#header-menu-cart {
   margin-top: 0.8rem;
   stroke: var(--timberwolf);
 }
@@ -75,10 +75,45 @@ nav {
   color: var(--timberwolf);
 }
 
+/* Main */
+
+main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+/* Menu */
+/* Basic Menu */
+
+#figure-basic-menu {
+  margin: 0;
+}
+
+/* Main Menu */
+
+#aside-main-menu {
+  width: 17%;
+  background-color: var(--iris);
+}
+
+#title-main-menu {
+  margin-top: 0.5rem;
+  color: var(--timberwolf);
+  font-weight: bold;
+}
+
+#list-main-menu {
+  list-style-type: none;
+}
+
+#item-main-menu {
+  margin-bottom: 0.25rem;
+}
+
 /* Footer */
 
 footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 5vh;
@@ -87,7 +122,7 @@ footer {
   background-color: var(--rich-black-fogra-39);
 }
 
-footer p {
+#footer-copyrigth {
   margin-top: auto;
   margin-bottom: auto;
   color: var(--timberwolf);

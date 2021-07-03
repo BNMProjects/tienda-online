@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <a href="*">Condiciones de uso</a>
       <a href="*">Avisos de privacidad</a>
-      <p>&#169; 2021, Tienda On-line</p>
+      <S.Copyrigth>&#169; 2021, Tienda On-line</S.Copyrigth>
     </footer>
   );
 };
