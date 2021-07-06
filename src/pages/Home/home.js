@@ -11,9 +11,11 @@ const Home = () => {
   return (
     <>
       <Layout>
+        <section>
         <Banner />
         <PublishingCardList 
         publishings={publishings}/>
+        </section>
       </Layout>
     </>
   );
