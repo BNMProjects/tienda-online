@@ -9,7 +9,7 @@ body {
 a {
   margin-top: auto;
   margin-bottom: auto;
-  color: var(--timberwolf);
+  color: $timberwolf;
   text-decoration: none;
 }
 
@@ -25,8 +25,8 @@ header {
   height: 10vh;
   display: flex;
   justify-content: space-around;
-  background-color: var(--rich-black-fogra-39);
-  color: var(--timberwolf);
+  background-color: $rich-black-fogra-39;
+  color: $timberwolf;
 }
 
 #header-logo {
@@ -55,7 +55,7 @@ header {
 
 #header-menu-cart {
   margin-top: 0.8rem;
-  stroke: var(--timberwolf);
+  stroke: $timberwolf;
 }
 
 /* Navbar */
@@ -65,8 +65,8 @@ nav {
   height: 5vh;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--viridian-green);
-  color: var(--timberwolf);
+  background-color: $viridian-green;
+  color: $timberwolf;
 }
 
 /* Main */
@@ -88,12 +88,12 @@ main {
 
 #aside-main-menu {
   width: 17%;
-  background-color: var(--iris);
+  background-color: $iris;
 }
 
 #title-main-menu {
   margin-top: 0.5rem;
-  color: var(--timberwolf);
+  color: $timberwolf;
   font-weight: bold;
 }
 
@@ -113,11 +113,11 @@ footer {
   height: 5vh;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--rich-black-fogra-39);
+  background-color: $rich-black-fogra-39;
 }
 
 #footer-copyrigth {
   margin-top: auto;
   margin-bottom: auto;
-  color: var(--timberwolf);
+  color: $timberwolf;
 }

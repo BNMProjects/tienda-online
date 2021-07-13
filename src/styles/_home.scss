@@ -18,7 +18,7 @@
   padding: 1rem;
   margin: 0px;
   border-radius: 3px;
-  border-color: #838ea9;
+  border-color: $ship-cove;
   border-style: double;
 }
 
@@ -46,15 +46,15 @@
 .publishing-card{
   padding: 0px;
   margin: 0px;
-  background-color: #f2f2f2;
-  border: solid 1px #eaedf0;
+  background-color: $white-smoke;
+  border: solid 1px $solitude;
   border-radius: 3px;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 }
 
 .publishing-card:hover {
-  box-shadow: 1px 1px 1px 0px #838ea9;
+  box-shadow: 1px 1px 1px 0px $ship-cove;
   transform: translate(-1px, -1px);
 }
 
@@ -83,12 +83,12 @@
   display: block;
   margin: 0px auto;
   font-size: 0.8em;
-  color: #000000b3;
+  color: $semi-transparent-black;
 }
 
 .publishing-card-name{
   display: block;
   margin: 0px auto;
   font-size: 0.8em;
-  color: #000000b3;
+  color: $semi-transparent-black;
 }
