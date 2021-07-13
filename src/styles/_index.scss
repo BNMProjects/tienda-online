@@ -17,3 +17,107 @@ a {
   position: relative;
   min-height: 100vh;
 }
+
+/*Header*/
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--rich-black-fogra-39);
+  color: var(--timberwolf);
+}
+
+#header-logo {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#search-bar {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 58vw;
+  height: 50%;
+}
+
+#header-menu {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-menu-profile {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#header-menu-cart {
+  margin-top: 0.8rem;
+  stroke: var(--timberwolf);
+}
+
+/* Navbar */
+
+nav {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--viridian-green);
+  color: var(--timberwolf);
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+}
+
+/* Menu */
+/* Basic Menu */
+
+#figure-basic-menu {
+  margin: 0;
+}
+
+/* Main Menu */
+
+#aside-main-menu {
+  width: 17%;
+  background-color: var(--iris);
+}
+
+#title-main-menu {
+  margin-top: 0.5rem;
+  color: var(--timberwolf);
+  font-weight: bold;
+}
+
+#list-main-menu {
+  list-style-type: none;
+}
+
+#item-main-menu {
+  margin-bottom: 0.25rem;
+}
+
+/* Footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--rich-black-fogra-39);
+}
+
+#footer-copyrigth {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--timberwolf);
+}
