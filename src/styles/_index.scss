@@ -1,1 +1,18 @@
 @import './colors';
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--timberwolf);
+  text-decoration: none;
+}
+
+#root{
+  position: relative;
+  min-height: 100vh;
+}
