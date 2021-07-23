@@ -23,11 +23,7 @@ export const HeaderMenu = ({ children }) => {
 };
 
 export const HeaderProfile = ({ children }) => {
-  return (
-    <a id="header-menu-profile" href="*">
-      {children}
-    </a>
-  );
+  return <p id="header-menu-profile">{children}</p>;
 };
 
 export const CartLogo = () => {
