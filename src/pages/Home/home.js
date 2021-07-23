@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner";
-import PublishingCardList  from "../../components/PublishingCardList";
+import PublishingCardList from "../../components/PublishingCardList";
 import { publishings as getPublishings } from "../../helpers/provisoryApi";
 
 import Layout from "../../components/Layout/Layout";
@@ -11,9 +11,10 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <Banner />
-        <PublishingCardList 
-        publishings={publishings}/>
+        <article>
+          <Banner />
+          <PublishingCardList publishings={publishings} />
+        </article>
       </Layout>
     </>
   );
