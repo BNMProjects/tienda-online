@@ -1,9 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { ReactComponent as Cart } from "../../../assets/images/cart.svg";
 
 export const HeaderLogo = ({ children }) => {
   return <div id="header-logo">{children}</div>;
+};
+
+export const LinkLogo = ({ path, children }) => {
+  return (
+    <Link id="header-logo-link" to={path}>
+      {children}
+    </Link>
+  );
 };
 
 export const ImgLogo = ({ logo, alt }) => {

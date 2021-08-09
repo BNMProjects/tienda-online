@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header>
       <S.HeaderLogo>
-        <Link to="/">
+        <S.LinkLogo path="/">
           <S.ImgLogo logo={logo} alt={"example-logo"} />
-        </Link>
+        </S.LinkLogo>
       </S.HeaderLogo>
       <S.SearchBar placeholder="Ingresa el nombre de tu producto"></S.SearchBar>
       <S.HeaderMenu>

@@ -40,6 +40,11 @@ header {
   justify-content: center;
 }
 
+#header-logo-link {
+  display: block;
+  text-align: center;
+}
+
 #search-bar {
   margin-top: auto;
   margin-bottom: auto;
